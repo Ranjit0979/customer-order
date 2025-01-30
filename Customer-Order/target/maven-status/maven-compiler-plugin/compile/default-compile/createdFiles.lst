@@ -1,0 +1,16 @@
+com\multigenesys\entities\Order.class
+com\multigenesys\entities\Role.class
+com\multigenesys\config\SpringSecurityConfig.class
+com\multigenesys\entities\Customer.class
+com\multigenesys\services\CustomerService.class
+com\multigenesys\util\JwtUtil.class
+com\multigenesys\entities\dto\CustomerDTO.class
+com\multigenesys\repositories\CustomerRepo.class
+com\multigenesys\util\CustomerUserDetailsServiceImpl.class
+com\multigenesys\controller\CustomerController.class
+com\multigenesys\repositories\OrderRepo.class
+com\multigenesys\CustomerOrderApplication.class
+com\multigenesys\filter\JwtFilter.class
+com\multigenesys\services\CustomerServiceImpl.class
+com\multigenesys\entities\OrderStatus.class
+com\multigenesys\entities\dto\OrderDTO.class
