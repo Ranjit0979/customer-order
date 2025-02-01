@@ -75,7 +75,8 @@ public class CustomerServiceImpl implements CustomerService{
 		}
 		Customer admin=new Customer();
 		admin.setEmail("admin@gmail.com");
-		admin.setPassword("admin");
+		admin.setPassword(passwordEncoder.encode("admin"));
+		admin.setRole(Role.ADMIN);
 		admin.setCreatedAt(LocalDateTime.now());
 		return customerRepo.save(admin);
 	}
